@@ -1,0 +1,6 @@
+train: /content/drive/MyDrive/locust_detection/dataset/images/train
+val: /content/drive/MyDrive/locust_detection/dataset/images/val
+
+# Classes
+nc: 1 
+names: ['Locust']
