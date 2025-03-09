@@ -2,6 +2,7 @@
 🔍 A deep learning-based object detection model for locust identification using YOLOv5 and YOLOv8.
 
 📌 Project Overview
+
 This project aims to detect locusts in images using YOLOv5 and YOLOv8 models. The dataset has been curated and annotated and augmentated specifically for this task.
 This repository contains code for detecting locusts using YOLOv5 and YOLOv8. The dataset has been specifically curated for this task and can be used to train and evaluate the models.
 This repository contains the implementations of YOLOv5 and YOLOv8 for locust detection. The objective of this study is to compare the performance of these two models in terms of detection accuracy and efficiency.
