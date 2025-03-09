@@ -31,14 +31,14 @@ This repository presents a comparative evaluation of YOLOv5 and YOLOv8 for locus
 
 
 
-📁 Dataset & Model Files
+## 📁 Dataset & Model Files
 
 🔹 Curated & Augmented Dataset are available on Zenodo. Dataset DOI: 10.5281/zenodo.14964987
 
 🔹 Code Implementations: Includes training and inference scripts for both YOLOv5 and YOLOv8. 
 
 
-🎯 Augmentation Techniques Applied
+## 🎯 Augmentation Techniques Applied
 
 
 Following augmentation techniques were applied to improve model robustness:
@@ -68,7 +68,7 @@ Following augmentation techniques were applied to improve model robustness:
 
 
 
-🚀 Installation & Setup
+## 🚀 Installation & Setup
 
 
 1️⃣ Clone the Repository
@@ -92,7 +92,7 @@ drive.mount('/content/drive')
 
 
 
-🔧 Training 
+## 🔧 Training 
 
 We trained and tested YOLOv5 and YOLOv8 on:
 
@@ -100,7 +100,7 @@ We trained and tested YOLOv5 and YOLOv8 on:
 
 ◆ Augmented dataset (Images enhanced using transformations)
 
-⚡ Results showed that YOLOv8 outperformed YOLOv5 in detection accuracy especially after augmentation.
+### ⚡ Results showed that YOLOv8 outperformed YOLOv5 in detection accuracy especially after augmentation.
 
 ✔ Train YOLOv5
 
@@ -151,19 +151,19 @@ Below are sample detection results:
 ![YOLOv8 Detection](results/yolov8_output.jpg)
 
 
-📜 Citation
+## 📜 Citation
 
 If you use this dataset, please cite the Zenodo DOI:  
 🔗 DOI: [10.5281/zenodo.14964987](https://doi.org/10.5281/zenodo.14964987)  
 
 
-📄 License
+## 📄 License
 🔹 This project is licensed under the MIT License.
 
-🤝 Acknowledgments
+## 🤝 Acknowledgments
 Special thanks to Ultralytics for YOLO development.
 
-📬 Contact
+## 📬 Contact
 
 For questions, reach out via poojavjpy@gmail.com or https://www.researchgate.net/profile/Pooja-Vajpayee-2/research
 
