@@ -50,6 +50,12 @@ The following augmentation techniques were applied to improve model robustness:
 
 ✔ Gaussian Noise & Blur
 
+## 📸 Sample output of an image after augmentation 
+
+### **Applied Augmentation Techniques**
+![Augmentation](results/augmentation.jpg)
+
+
 
 🚀 Installation & Setup
 
