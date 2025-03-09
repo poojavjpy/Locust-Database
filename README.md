@@ -210,5 +210,5 @@ Special thanks to Ultralytics for YOLO development.
 
 For questions, reach out via poojavjpy@gmail.com or https://www.researchgate.net/profile/Pooja-Vajpayee-2/research
 
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14996738.svg)](https://doi.org/10.5281/zenodo.14996738)
 
