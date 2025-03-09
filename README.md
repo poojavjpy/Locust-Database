@@ -188,12 +188,12 @@ If you use this dataset, please cite the Zenodo DOI:
 🔗 DOI: [10.5281/zenodo.14964987](https://doi.org/10.5281/zenodo.14964987)  
 
 @misc{vajpayee2025locust,
-  author       = {Pooja Vajpayee and Kuldeep Kr. Yogi},  
-  title        = {Locust Detection},  
-  year         = {2025},  
-  publisher    = {Zenodo},  
-  doi          = {10.5281/zenodo.14964987},  
-  url          = {https://doi.org/10.5281/zenodo.14964987}  
+  author    = {Pooja Vajpayee and Kuldeep Kr. Yogi},
+  title     = {Locust Detection},
+  year      = {2025},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.14964987},
+  url       = {https://doi.org/10.5281/zenodo.14964987}
 }
 
 
