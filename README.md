@@ -100,7 +100,7 @@ We trained and tested YOLOv5 and YOLOv8 on:
 
 ◆ Augmented dataset (Images enhanced using transformations)
 
-### ⚡ Results showed that YOLOv8 outperformed YOLOv5 in detection accuracy especially after augmentation.
+## ⚡ Results showed that YOLOv8 outperformed YOLOv5 in detection accuracy especially after augmentation.
 
 ✔ Train YOLOv5
 
@@ -119,7 +119,7 @@ results = model.train(
 )
 
 
-🏆 Inference
+## 🏆 Inference
 
 
 ✔ Inference YOLOv5
