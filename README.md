@@ -9,6 +9,8 @@ This repository presents a comparative evaluation of YOLOv5 and YOLOv8 for locus
 1️⃣ A curated dataset specifically prepared for locust detection.
 
 2️⃣ An augmented version of the dataset, where various augmentation techniques were applied to enhance model robustness.
+   
+Labels are in YOLO format. 
 
 🔥 Key Findings:
 
@@ -82,6 +84,14 @@ drive.mount('/content/drive')
 
 
 🔧 Training 
+
+We trained and tested YOLOv5 and YOLOv8 on:
+
+Curated dataset (Original images)
+
+Augmented dataset (Images enhanced using transformations)
+
+Results showed that YOLOv8 outperformed YOLOv5 in detection accuracy, especially after augmentation.
 
 Train YOLOv5
 
