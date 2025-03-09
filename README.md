@@ -79,7 +79,15 @@ Inference YOLOv8
 
 results = model.predict(source=source_directory, conf=0.40, save=True, project=output_directory, name='detection_results')
 
-## 📸 Results
+## 📸 Result Visualisations
+Below are performance results:
+
+### **YOLOv5 Performance**
+![YOLOv5 Performance](results/yolov5_performance.jpg)
+
+### **YOLOv8 Performance**
+![YOLOv8 Performance](results/yolov8_performance.jpg)
+
 Below are sample detection results:
 
 ### **YOLOv5 Output**
