@@ -118,7 +118,7 @@ results = model.predict(source=source_directory, conf=0.40, save=True, project=o
 Below are performance results:
 
 ### **YOLOv5 and YOLOv8 Performance on dataset without Augmentation**
-![withou augmentation](results/witout.jpg)
+![without augmentation](results/without.jpg)
 
 ### **YOLOv5 and YOLOv8 Performance on dataset with Augmentation**
 ![with augmentation](results/with.jpg)
