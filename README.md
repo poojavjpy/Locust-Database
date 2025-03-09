@@ -190,7 +190,7 @@ If you use this dataset, please cite the Zenodo DOI:
 ```bibtex
 @misc{vajpayee2025locust,
   author    = {Pooja Vajpayee and Kuldeep Kr. Yogi},
-  title     = {Locust Detection},
+  title     = {Locust Images Dataset},
   year      = {2025},
   publisher = {Zenodo},
   doi       = {10.5281/zenodo.14964987},
