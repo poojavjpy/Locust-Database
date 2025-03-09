@@ -12,8 +12,11 @@ After extensive evaluation, YOLOv8 demonstrated superior performance compared to
 ✅ Features
 
 YOLOv5 & YOLOv8 implementations
-Custom dataset(without augmentation and with augmentation) for locust detection
+
+Custom dataset (without augmentation and with augmentation) for locust detection
+
 Training and inference scripts included
+
 Supports Google Colab for easy execution
 
 🔹 Dataset DOI: 10.5281/zenodo.14964987
