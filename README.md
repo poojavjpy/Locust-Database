@@ -104,7 +104,7 @@ cd locust-detection
 
 pip install -r requirements.txt
 
-If using Google Colab, run:
+👉 If using Google Colab, run:
 
 !pip install -r requirements.txt
 
