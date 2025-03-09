@@ -142,7 +142,7 @@ Below are performance results:
 ### **YOLOv5 and YOLOv8 Performance on dataset with Augmentation**
 ![with augmentation](results/with.jpg)
 
-Below are sample detection results:
+## Below are sample detection results:
 
 ### **YOLOv5 Output after augmentation**
 ![YOLOv5 Detection](results/yolov5_output.jpg)
