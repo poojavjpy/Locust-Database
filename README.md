@@ -36,6 +36,28 @@ This repository presents a comparative evaluation of YOLOv5 and YOLOv8 for locus
 🔹 Curated & Augmented Dataset are available on Zenodo. Dataset DOI: 10.5281/zenodo.14964987
 
 🔹 Code Implementations: Includes training and inference scripts for both YOLOv5 and YOLOv8. 
+🔹 Dataset is structured like this
+
+locust_detection
+├── images
+│   ├── train
+│   │   ├── img_001.jpg
+│   │   ├── img_002.jpg
+│   │   └── ...
+│   ├── val
+│   │   ├── img_101.jpg
+│   │   ├── img_102.jpg
+│   │   └── ...
+└── labels
+    ├── train
+    │   ├── img_001.txt
+    │   ├── img_002.txt
+    │   └── ...
+    ├── val
+    │   ├── img_101.txt
+    │   ├── img_102.txt
+    │   └── ...
+
 
 
 ## 🎯 Augmentation Techniques Applied
