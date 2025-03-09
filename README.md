@@ -33,7 +33,9 @@ Supports Google Colab for easy execution
 🔹 Curated & Augmented Dataset are available on Zenodo. Dataset DOI: 10.5281/zenodo.14964987
 🔹 Code Implementations: Includes training and inference scripts for both YOLOv5 and YOLOv8. 
 
+
 🎯 Augmentation Techniques Applied
+
 
 The following augmentation techniques were applied to improve model robustness:
 
@@ -47,7 +49,9 @@ The following augmentation techniques were applied to improve model robustness:
 
 ✔ Gaussian Noise & Blur
 
+
 🚀 Installation & Setup
+
 
 1️⃣ Clone the Repository
 
@@ -69,6 +73,7 @@ from google.colab import drive
 drive.mount('/content/drive')
 
 
+
 🔧 Training 
 
 Train YOLOv5
@@ -87,7 +92,9 @@ results = model.train(
     name='yolov8_detection'
 )
 
+
 🏆 Inference
+
 
 Inference YOLOv5
 
@@ -96,6 +103,7 @@ Inference YOLOv5
                    --source /content/drive/MyDrive/locust_detection/test_data/images
 
 Inference YOLOv8
+
 
 results = model.predict(source=source_directory, conf=0.40, save=True, project=output_directory, name='detection_results')
 
