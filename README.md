@@ -32,3 +32,11 @@ Train YOLOv5
 
 python train.py --img 640 --batch 16 --epochs 50 --data data.yaml --weights yolov5s.pt
 
+📄 License
+🔹 This project is licensed under the MIT License.
+
+🤝 Acknowledgments
+Special thanks to Ultralytics for YOLO development.
+
+
+
