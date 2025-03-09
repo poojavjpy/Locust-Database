@@ -104,6 +104,10 @@ cd locust-detection
 
 pip install -r requirements.txt
 
+If using Google Colab, run:
+!pip install -r requirements.txt
+
+
 3️⃣ Download the Dataset
 Since the dataset is hosted on Zenodo, download it manually from:
 🔗 Dataset DOI: 10.5281/zenodo.14964987
