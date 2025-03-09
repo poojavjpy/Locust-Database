@@ -1,7 +1,7 @@
 # 🚀 Performance Comparison of YOLOv5 & YOLOv8 on Curated and Augmented Datasets for Locust Detection
 🔍 A deep learning-based object detection model for locust identification using YOLOv5 and YOLOv8.
 
-📌 Project Overview
+## 📌 Project Overview
 
 This project aims to detect locusts in images using YOLOv5 and YOLOv8 models. The dataset has been curated, annotated and augmentated specifically for this task.
 This repository presents a comparative evaluation of YOLOv5 and YOLOv8 for locust detection. The study was conducted on:
@@ -12,14 +12,14 @@ This repository presents a comparative evaluation of YOLOv5 and YOLOv8 for locus
    
 3️⃣  Labels are in YOLO format. 
 
-🔥 Key Findings:
+## 🔥 Key Findings:
 
 ◆ YOLOv8 outperformed YOLOv5 in both scenarios, achieving higher accuracy and better generalization.
 
 ◆ Dataset augmentation significantly improved model performance and provide higher F1 Score and better detection accuracy.
 
 
-✅ Features
+## ✅ Features
 
 ★ YOLOv5 & YOLOv8 implementations
 
