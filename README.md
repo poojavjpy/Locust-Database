@@ -144,10 +144,10 @@ Below are performance results:
 
 Below are sample detection results:
 
-### **YOLOv5 Output**
+### **YOLOv5 Output after augmentation**
 ![YOLOv5 Detection](results/yolov5_output.jpg)
 
-### **YOLOv8 Output**
+### **YOLOv8 Output after augmentation**
 ![YOLOv8 Detection](results/yolov8_output.jpg)
 
 
