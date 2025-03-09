@@ -187,6 +187,7 @@ Below are performance results:
 If you use this dataset, please cite the Zenodo DOI:  
 🔗 DOI: [10.5281/zenodo.14964987](https://doi.org/10.5281/zenodo.14964987)  
 
+```bibtex
 @misc{vajpayee2025locust,
   author    = {Pooja Vajpayee and Kuldeep Kr. Yogi},
   title     = {Locust Detection},
