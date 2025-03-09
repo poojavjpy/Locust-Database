@@ -1,13 +1,19 @@
-# Performance Evaluation of YOLOv5 and YOLOv8 on Curated Dataset
+# Performance Comparison of YOLOv5 & YOLOv8 on Curated and Augmented Datasets for Locust Detection
 🔍 A deep learning-based object detection model for locust identification using YOLOv5 and YOLOv8.
 
 📌 Project Overview
 
 This project aims to detect locusts in images using YOLOv5 and YOLOv8 models. The dataset has been curated, annotated and augmentated specifically for this task.
-This repository contains code for detecting locusts using YOLOv5 and YOLOv8. The dataset has been specifically curated for this task and can be used to train and evaluate the models.
-This repository contains the implementations of YOLOv5 and YOLOv8 for locust detection. The objective of this study is to compare the performance of these two models in terms of detection accuracy and efficiency.
+This repository presents a comparative evaluation of YOLOv5 and YOLOv8 for locust detection. The study was conducted on:
 
-After extensive evaluation, YOLOv8 demonstrated superior performance compared to YOLOv5, achieving higher mAP (mean Average Precision) and better detection accuracy.
+1️⃣ A curated dataset specifically prepared for locust detection.
+2️⃣ An augmented version of the dataset, where various augmentation techniques were applied to enhance model robustness.
+
+📌 Key Findings:
+
+YOLOv8 outperformed YOLOv5 in both scenarios, achieving higher accuracy and better generalization.
+Dataset augmentation significantly improved model performance and provide higher mAP (mean Average Precision) and better detection accuracy.
+
 
 ✅ Features
 
@@ -24,8 +30,17 @@ Supports Google Colab for easy execution
 
 📁 Dataset & Model Files
 
-The dataset is hosted on Zenodo at the DOI link above.
-YOLOv5 & YOLOv8 models need to be trained using this dataset.
+Curated & Augmented Dataset: Available on Zenodo 🔗 DOI: 10.5281/zenodo.14964987.
+Code Implementations: Includes training and inference scripts for both YOLOv5 and YOLOv8.
+
+🛠️ Augmentation Techniques Applied
+
+The following augmentation techniques were applied to improve model robustness:
+✔ Rotation
+✔ Scaling & Cropping
+✔ Brightness & Contrast Adjustments
+✔ Flipping (Horizontal & Vertical)
+✔ Gaussian Noise & Blur
 
 🚀 Installation & Setup
 
@@ -79,7 +94,7 @@ Inference YOLOv8
 
 results = model.predict(source=source_directory, conf=0.40, save=True, project=output_directory, name='detection_results')
 
-## 📸 Result Visualisations
+## 📸 Visual Comparison of Results
 Below are performance results:
 
 ### **YOLOv5 Performance**
