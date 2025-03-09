@@ -38,7 +38,7 @@ This repository presents a comparative evaluation of YOLOv5 and YOLOv8 for locus
 🔹 Code Implementations: Includes training and inference scripts for both YOLOv5 and YOLOv8. 
 🔹 Dataset is structured like this
 
-locust_detection
+
 ```
 locust_detection
 ├── images
