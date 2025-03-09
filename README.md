@@ -43,12 +43,19 @@ Supports Google Colab for easy execution
 The following augmentation techniques were applied to improve model robustness:
 
 🔹 Flipped Horizontally
+
 🔹 Flipped Vertically
+
 🔹 Brightness & Contrast
+
 🔹 Rotated & Scaled
+
 🔹 Gaussian Blur
+
 🔹 HSV Adjusted
+
 🔹 Color Shifted
+
 🔹 Cropped Locust
 
 💡 Augmentation Script: Available in augmentation.ipynb
