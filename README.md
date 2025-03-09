@@ -52,7 +52,7 @@ The following augmentation techniques were applied to improve model robustness:
 
 ✔ Gaussian Noise & Blur
 
-💡 Augmentation Script: Available in augmentation/augment.py
+💡 Augmentation Script: Available in augmentation/augmentation.ipynb
 
 ## 📸 Sample output of an image after augmentation 
 
