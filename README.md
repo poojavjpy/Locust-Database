@@ -10,7 +10,7 @@ This repository presents a comparative evaluation of YOLOv5 and YOLOv8 for locus
 
 2️⃣ An augmented version of the dataset, where various augmentation techniques were applied to enhance model robustness.
    
-★ Labels are in YOLO format. 
+3️⃣  Labels are in YOLO format. 
 
 🔥 Key Findings:
 
