@@ -69,6 +69,16 @@ Inference YOLOv8
 
 results = model.predict(source=source_directory, conf=0.40, save=True, project=output_directory, name='detection_results')
 
+## 📸 Results
+Below are sample detection results:
+
+### **YOLOv5 Output**
+![YOLOv5 Detection](results/yolov5_output.jpg)
+
+### **YOLOv8 Output**
+![YOLOv8 Detection](results/yolov8_output.jpg)
+
+
 📜 Citation
 
 If you use this dataset, please cite the Zenodo DOI:  
@@ -80,6 +90,10 @@ If you use this dataset, please cite the Zenodo DOI:
 
 🤝 Acknowledgments
 Special thanks to Ultralytics for YOLO development.
+
+📬 Contact
+
+For questions, reach out via poojavjpy@gmail.com or https://www.researchgate.net/profile/Pooja-Vajpayee-2/research
 
 
 
