@@ -13,6 +13,7 @@ This repository presents a comparative evaluation of YOLOv5 and YOLOv8 for locus
 🔥 Key Findings:
 
 YOLOv8 outperformed YOLOv5 in both scenarios, achieving higher accuracy and better generalization.
+
 Dataset augmentation significantly improved model performance and provide higher mAP (mean Average Precision) and better detection accuracy.
 
 
