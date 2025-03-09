@@ -3,6 +3,13 @@
 
 📌 Project Overview
 This project aims to detect locusts in images using YOLOv5 and YOLOv8 models. The dataset has been curated and annotated specifically for this task.
+This repository contains code for detecting locusts using YOLOv5 and YOLOv8. The dataset has been specifically curated for this task and can be used to train and evaluate the models.
+
+✅ Features
+YOLOv5 & YOLOv8 implementations
+Custom dataset for locust detection
+Training and inference scripts included
+Supports Google Colab for easy execution
 
 🔹 Dataset DOI: 10.5281/zenodo.14964987
 🔹 YOLOv5 and YOLOv8 Implementations included
@@ -27,10 +34,46 @@ Since the dataset is hosted on Zenodo, download it manually from:
 
 Unzip and place it in the correct directory (datasets/).
 
-📌 Training & Inference
+4️⃣ Mount Google Drive (if using Colab)
+from google.colab import drive
+drive.mount('/content/drive')
+
+
+🔧 Training 
+
 Train YOLOv5
 
-python train.py --img 640 --batch 16 --epochs 50 --data data.yaml --weights yolov5s.pt
+!python train.py --img 640 --batch 16 --epochs 60 --data robo.dataset.yaml --weights yolov5s.pt --cache
+
+Train YOLOv8
+
+results = model.train(
+    data=dataset_yaml_path,  # Use the correct path here
+    epochs=60,
+    batch=16,
+    imgsz=640,
+    save_period=10,
+    project=save_model_path,
+    name='yolov8_detection'
+)
+
+🏆 Inference
+
+Inference YOLOv5
+
+!python detect.py --weights /content/drive/MyDrive/locust_detection/yolov5/runs/train/exp/weights/last.pt \
+                   --conf 0.40 --data dataset.yaml \
+                   --source /content/drive/MyDrive/locust_detection/test_data/images
+
+Inference YOLOv8
+
+results = model.predict(source=source_directory, conf=0.40, save=True, project=output_directory, name='detection_results')
+
+📜 Citation
+
+If you use this dataset, please cite the Zenodo DOI:  
+🔗 DOI: [10.5281/zenodo.14964987](https://doi.org/10.5281/zenodo.14964987)  
+
 
 📄 License
 🔹 This project is licensed under the MIT License.
