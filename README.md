@@ -10,37 +10,38 @@ This repository presents a comparative evaluation of YOLOv5 and YOLOv8 for locus
 
 2️⃣ An augmented version of the dataset, where various augmentation techniques were applied to enhance model robustness.
    
-Labels are in YOLO format. 
+★ Labels are in YOLO format. 
 
 🔥 Key Findings:
 
-YOLOv8 outperformed YOLOv5 in both scenarios, achieving higher accuracy and better generalization.
+◆ YOLOv8 outperformed YOLOv5 in both scenarios, achieving higher accuracy and better generalization.
 
-Dataset augmentation significantly improved model performance and provide higher mAP (mean Average Precision) and better detection accuracy.
+◆ Dataset augmentation significantly improved model performance and provide higher F1 Score and better detection accuracy.
 
 
 ✅ Features
 
-YOLOv5 & YOLOv8 implementations
+★ YOLOv5 & YOLOv8 implementations
 
-Custom dataset (without augmentation and with augmentation) for locust detection
+★ Custom dataset (without augmentation and with augmentation) for locust detection
 
-Training and inference scripts included
+★ Training and inference scripts included
 
-Supports Google Colab for easy execution
+★ Supports Google Colab for easy execution
 
 
 
 📁 Dataset & Model Files
 
 🔹 Curated & Augmented Dataset are available on Zenodo. Dataset DOI: 10.5281/zenodo.14964987
+
 🔹 Code Implementations: Includes training and inference scripts for both YOLOv5 and YOLOv8. 
 
 
 🎯 Augmentation Techniques Applied
 
 
-The following augmentation techniques were applied to improve model robustness:
+Following augmentation techniques were applied to improve model robustness:
 
 🔹 Flipped Horizontally
 
@@ -95,17 +96,17 @@ drive.mount('/content/drive')
 
 We trained and tested YOLOv5 and YOLOv8 on:
 
-Curated dataset (Original images)
+◆ Curated dataset (Original images)
 
-Augmented dataset (Images enhanced using transformations)
+◆ Augmented dataset (Images enhanced using transformations)
 
-Results showed that YOLOv8 outperformed YOLOv5 in detection accuracy, especially after augmentation.
+⚡ Results showed that YOLOv8 outperformed YOLOv5 in detection accuracy especially after augmentation.
 
-Train YOLOv5
+✔ Train YOLOv5
 
 !python train.py --img 640 --batch 16 --epochs 60 --data robo.dataset.yaml --weights yolov5s.pt --cache
 
-Train YOLOv8
+✔ Train YOLOv8
 
 results = model.train(
     data=dataset_yaml_path,  # Use the correct path here
@@ -121,13 +122,13 @@ results = model.train(
 🏆 Inference
 
 
-Inference YOLOv5
+✔ Inference YOLOv5
 
 !python detect.py --weights /content/drive/MyDrive/locust_detection/yolov5/runs/train/exp/weights/last.pt \
                    --conf 0.40 --data dataset.yaml \
                    --source /content/drive/MyDrive/locust_detection/test_data/images
 
-Inference YOLOv8
+✔ Inference YOLOv8
 
 
 results = model.predict(source=source_directory, conf=0.40, save=True, project=output_directory, name='detection_results')
