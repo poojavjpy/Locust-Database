@@ -118,10 +118,10 @@ results = model.predict(source=source_directory, conf=0.40, save=True, project=o
 Below are performance results:
 
 ### **YOLOv5 and YOLOv8 Performance on dataset without Augmentation**
-![YOLOv5 Performance](results/witout.jpg)
+![withou augmentation](results/witout.jpg)
 
 ### **YOLOv5 and YOLOv8 Performance on dataset with Augmentation**
-![YOLOv8 Performance](results/with.jpg)
+![with augmentation](results/with.jpg)
 
 Below are sample detection results:
 
