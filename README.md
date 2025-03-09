@@ -19,6 +19,7 @@ The dataset is hosted on Zenodo at the DOI link above.
 YOLOv5 & YOLOv8 models need to be trained using this dataset.
 
 🚀 Installation & Setup
+
 1️⃣ Clone the Repository
 
 git clone https://github.com/yourusername/locust-detection.git
