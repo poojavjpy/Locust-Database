@@ -25,21 +25,25 @@ Training and inference scripts included
 
 Supports Google Colab for easy execution
 
-🔹 Dataset DOI: 10.5281/zenodo.14964987
-🔹 YOLOv5 and YOLOv8 Implementations included
+
 
 📁 Dataset & Model Files
 
-Curated & Augmented Dataset: Available on Zenodo 🔗 DOI: 10.5281/zenodo.14964987.
-Code Implementations: Includes training and inference scripts for both YOLOv5 and YOLOv8.
+🔹 Curated & Augmented Dataset are available on Zenodo. Dataset DOI: 10.5281/zenodo.14964987
+🔹 Code Implementations: Includes training and inference scripts for both YOLOv5 and YOLOv8. 
 
 🛠️ Augmentation Techniques Applied
 
 The following augmentation techniques were applied to improve model robustness:
+
 ✔ Rotation
+
 ✔ Scaling & Cropping
+
 ✔ Brightness & Contrast Adjustments
+
 ✔ Flipping (Horizontal & Vertical)
+
 ✔ Gaussian Noise & Blur
 
 🚀 Installation & Setup
