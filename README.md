@@ -1,5 +1,6 @@
-# 🚀 Performance Comparison of YOLOv5 & YOLOv8 on Curated and Augmented Datasets for Locust Detection
+# 🚀 Performance Comparison of YOLOv5 & YOLOv8 on Curated and Augmented Datasets for Locust Detection  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14996738.svg)](https://doi.org/10.5281/zenodo.14996738)
 🔍 A deep learning-based object detection model for locust identification using YOLOv5 and YOLOv8.
+
 
 ## 📌 Project Overview
 
